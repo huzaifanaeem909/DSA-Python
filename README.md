@@ -1,2 +1,3 @@
-# Data-Structure-and-Algorithm
-"Explore my DSA practice hub, where I track my journey of mastering different data structures and algorithms. Each folder dives into specific topics, offering clear explanations and accompanying code."
+# DSA Practice Repository
+
+Welcome to my DSA playground, where I carefully document my progress in mastering data structures and algorithms. Each folder is a arranged collection of insights, explanations, and code snippets. Dive into each topic as it unveils the secrets of these essential elements of computer science.
