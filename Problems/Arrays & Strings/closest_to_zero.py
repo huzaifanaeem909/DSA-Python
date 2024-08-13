@@ -22,7 +22,6 @@ def findClosestNumber(arr):
     # Return the closest number found
     return closest_number
 
-# Example usage
 arr = [-4, -2, -1, 1, 4, 8]
 print("Closest number to Zero:", findClosestNumber(arr))
 
@@ -37,14 +36,12 @@ def findClosestNumber(arr):
         # Update closest_number if the current number is closer to zero
         if abs(i) < abs(closest_number):
             closest_number = i
-
-    # Return the absolute value if the closest number is negative and its absolute value is also present in the array
+    # Return the absolute value if the closest number is negative and its absolute value is also present in the Array
     if closest_number < 0 and abs(closest_number) in arr:
         return abs(closest_number)
     
     # Return the closest number found
     return closest_number
 
-# Example usage
 arr = [-34, -22, -8, 10, 12, 8]
 print("Closest number to Zero:", findClosestNumber(arr))
