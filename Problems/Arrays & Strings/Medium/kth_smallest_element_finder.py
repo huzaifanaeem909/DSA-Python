@@ -18,8 +18,7 @@ def Kth_Smallest(arr, N, k):
     return arr[k - 1]
 
 
-if __name__ == "__main__":
-    arr = [7, 10, 4, 3, 20, 15]
-    N = len(arr)
-    k = 3
-    print("K'th smallest element is", Kth_Smallest(arr, N, k))
+arr = [7, 10, 4, 3, 20, 15]
+N = len(arr)
+k = 3
+print("K'th smallest element is =", Kth_Smallest(arr, N, k))
