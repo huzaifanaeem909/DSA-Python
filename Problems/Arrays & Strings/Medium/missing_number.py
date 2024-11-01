@@ -12,6 +12,7 @@ Output: 4
 """
 
 def find_missing(arr):
+    
     min_val = min(arr)
     max_val = max(arr)
     
