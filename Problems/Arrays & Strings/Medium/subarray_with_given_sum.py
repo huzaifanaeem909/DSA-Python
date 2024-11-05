@@ -45,7 +45,7 @@ def find_subarray(arr, n, sum):
             if curr_sum == sum:
                 res.append(start)
                 res.append(last)
-                # res = arr[start:last + 1]  # To return the SubArray
+                # res = arr[start:last + 1]  # To return the SubArray with required Sum
                 flag = True
                 break
 
