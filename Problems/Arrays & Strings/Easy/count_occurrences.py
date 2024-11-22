@@ -27,10 +27,3 @@ if __name__ == "__main__":
     n = len(arr)
     x = 2  # Element to be counted in arr[]
     print(x, "occurs", countOccurrences(arr, n, x), "times")
-
-
-# Another Solution:
-
-
-# Time Complexity: O(logn)
-# Space Complexity: O(1)
